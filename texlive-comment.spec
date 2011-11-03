@@ -1,3 +1,9 @@
+# revision 17155
+# category Package
+# catalog-ctan /macros/latex/contrib/comment
+# catalog-date 2010-02-22 20:33:14 +0100
+# catalog-license gpl
+# catalog-version 3.6
 Name:		texlive-comment
 Version:	3.6
 Release:	1
@@ -51,6 +57,7 @@ line of their own.
 %doc %{_texmfdistdir}/doc/latex/comment/comm_latest.tex
 %doc %{_texmfdistdir}/doc/latex/comment/comment.pdf
 %doc %{_texmfdistdir}/doc/latex/comment/comment.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ line of their own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
