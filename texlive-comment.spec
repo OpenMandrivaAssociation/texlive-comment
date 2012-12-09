@@ -58,3 +58,17 @@ line of their own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.6-2
++ Revision: 750410
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.6-1
++ Revision: 718109
+- texlive-comment
+- texlive-comment
+- texlive-comment
+- texlive-comment
+
