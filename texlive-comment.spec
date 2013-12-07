@@ -6,7 +6,7 @@
 # catalog-version 3.6
 Name:		texlive-comment
 Version:	3.6
-Release:	4
+Release:	5
 Summary:	Selectively include/excludes portions of text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/comment
