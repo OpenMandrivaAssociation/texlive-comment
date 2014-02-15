@@ -1,12 +1,12 @@
-# revision 17155
+# revision 32778
 # category Package
 # catalog-ctan /macros/latex/contrib/comment
-# catalog-date 2010-02-22 20:33:14 +0100
+# catalog-date 2014-01-23 22:28:28 +0100
 # catalog-license gpl
-# catalog-version 3.6
+# catalog-version 3.7
 Name:		texlive-comment
-Version:	3.6
-Release:	6
+Version:	3.7
+Release:	1
 Summary:	Selectively include/excludes portions of text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/comment
@@ -58,17 +58,3 @@ line of their own.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.6-2
-+ Revision: 750410
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.6-1
-+ Revision: 718109
-- texlive-comment
-- texlive-comment
-- texlive-comment
-- texlive-comment
-
