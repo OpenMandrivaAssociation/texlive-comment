@@ -1,12 +1,6 @@
-# revision 32778
-# category Package
-# catalog-ctan /macros/latex/contrib/comment
-# catalog-date 2014-01-23 22:28:28 +0100
-# catalog-license gpl
-# catalog-version 3.7
 Name:		texlive-comment
-Version:	3.7
-Release:	5
+Version:	3.8
+Release:	1
 Summary:	Selectively include/excludes portions of text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/comment
@@ -43,11 +37,8 @@ line of their own.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/comment/comment.sty
-%doc %{_texmfdistdir}/doc/latex/comment/README
-%doc %{_texmfdistdir}/doc/latex/comment/comm_latest.tex
-%doc %{_texmfdistdir}/doc/latex/comment/comment.pdf
-%doc %{_texmfdistdir}/doc/latex/comment/comment.tex
+%{_texmfdistdir}/tex/latex/comment
+%doc %{_texmfdistdir}/doc/latex/comment
 
 #-----------------------------------------------------------------------
 %prep
