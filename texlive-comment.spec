@@ -3,7 +3,7 @@ Version:	41927
 Release:	2
 Summary:	Selectively include/excludes portions of text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/comment
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/comment
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comment.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/comment.doc.r%{version}.tar.xz
